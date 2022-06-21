@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.smartagsyntaxscore.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.smartagsyntaxscore.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/login_to_register"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.smartagsyntaxscore.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/register_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

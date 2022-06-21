@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="448dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="48dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logindoc" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rounded"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/question"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="95dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/register"
+        android:textColor="@color/primaryColor"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
