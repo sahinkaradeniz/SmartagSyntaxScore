@@ -9,14 +9,18 @@
         android:id="@+id/mainFragment"
         android:name="com.example.smartagsyntaxscore.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/main_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.smartagsyntaxscore.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_mainFragment"
+            android:id="@+id/login_to_main"
             app:destination="@id/mainFragment" />
         <action
             android:id="@+id/login_to_register"
@@ -28,7 +32,7 @@
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
-            android:id="@+id/action_registerFragment_to_mainFragment"
+            android:id="@+id/register_to_main"
             app:destination="@id/mainFragment" />
         <action
             android:id="@+id/register_to_login"
