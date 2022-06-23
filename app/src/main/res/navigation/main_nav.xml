@@ -63,5 +63,32 @@
         android:id="@+id/screen1_1"
         android:name="com.example.smartagsyntaxscore.Fragment.Screen1_1"
         android:label="fragment_screen1_1"
-        tools:layout="@layout/fragment_screen1_1" />
+        tools:layout="@layout/fragment_screen1_1" >
+        <action
+            android:id="@+id/action_screen1_1_to_screen1_2"
+            app:destination="@id/screen1_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen1_2"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_2"
+        android:label="Screen1_2"
+        tools:layout="@layout/fragment_screen1_2">
+        <action
+            android:id="@+id/action_screen1_2_to_screen1_3"
+            app:destination="@id/screen1_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen1_3"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_3"
+        android:label="Screen1_3"
+        tools:layout="@layout/fragment_screen1_3">
+        <action
+            android:id="@+id/action_screen1_3_to_screen1_4"
+            app:destination="@id/screen1_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen1_4"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_4"
+        android:label="Screen1_4"
+        tools:layout="@layout/fragment_screen1_4"/>
 </navigation>

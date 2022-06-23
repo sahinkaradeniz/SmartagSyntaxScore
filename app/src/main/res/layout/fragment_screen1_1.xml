@@ -97,11 +97,11 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/nextButton1_2"
             android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="32dp"
             android:background="@drawable/previous"
             android:text="Next"
             android:textStyle="bold"

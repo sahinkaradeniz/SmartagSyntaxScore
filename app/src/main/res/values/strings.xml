@@ -14,8 +14,11 @@
     <string name="leftdominance">Left Dominance</string>
     <string name="apname">Syntax Score</string>
     <string name="question1">1. Total occlusion (T.O)</string>
-    <string name="question3">I. Indicate the first segment number of the T.O.</string>
     <string name="question2">Zaten bir hesabınız var mı ?</string>
+    <string name="question3">I. Indicate the first segment number of the T.O.</string>
+    <string name="question4">II. is Age of T.O. > 3 months?</string>
+    <string name="question5">III. Blunt stump?</string>
+    <string name="question6">IV. Bridging?</string>
     <string name="todo">TODO</string>
     <string name="leftscreen">Lezyon için hangi segment(ler)in hastalıklı olduğunu belirtiniz</string>
 

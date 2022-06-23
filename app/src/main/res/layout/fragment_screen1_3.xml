@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fragment.Screen1_2">
+    tools:context=".Fragment.Screen1_3">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarLR3"
@@ -19,7 +19,7 @@
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/leftscreen" />
+        app:srcCompat="@drawable/blunt" />
 
     <Switch
         android:id="@+id/switch2"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/question4"
+        android:text="@string/question5"
         android:textColor="@color/black"
         android:textSize="14sp"
         android:textStyle="bold" />
@@ -65,26 +65,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:text="No" />
+                android:text="Yes" />
 
             <RadioButton
                 android:id="@+id/radioButton10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:text="Yes" />
-
-            <RadioButton
-                android:id="@+id/radioButton11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:text="Unknown" />
+                android:text="No" />
 
         </RadioGroup>
 
         <Button
-            android:id="@+id/nextButton1_3"
+            android:id="@+id/nextButton1_4"
             android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
