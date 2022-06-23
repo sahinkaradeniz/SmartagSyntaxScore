@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterFragment">
+    tools:context=".Fragment.RegisterFragment">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
@@ -91,7 +91,7 @@
         android:layout_width="344dp"
         android:layout_height="49dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/rounded"
+        android:background="@drawable/previous"
         android:text="@string/signup"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/registerpassword1"

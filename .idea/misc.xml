@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/drawable-v31/previous.xml" value="0.1915" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/drawable/previous.xml" value="0.1915" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/drawable/rounded.xml" value="0.325" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/drawable/roundend_pre.xml" value="0.1915" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/activity_main.xml" value="0.22871376811594202" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_left.xml" value="0.2466866182129115" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_login.xml" value="0.297990594271056" />
-        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_main.xml" value="0.297990594271056" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_main.xml" value="0.22" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1.xml" value="0.20262919310970082" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_1.xml" value="0.20262919310970082" />
       </map>
     </option>
   </component>

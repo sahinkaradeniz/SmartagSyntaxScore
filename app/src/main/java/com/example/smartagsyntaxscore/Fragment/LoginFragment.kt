@@ -1,4 +1,4 @@
-package com.example.smartagsyntaxscore
+package com.example.smartagsyntaxscore.Fragment
 
 import android.content.ContentValues.TAG
 import android.os.Bundle
@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
+import com.example.smartagsyntaxscore.R
 import com.example.smartagsyntaxscore.databinding.FragmentLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

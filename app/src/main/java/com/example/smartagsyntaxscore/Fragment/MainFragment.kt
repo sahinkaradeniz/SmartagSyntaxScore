@@ -1,4 +1,4 @@
-package com.example.smartagsyntaxscore
+package com.example.smartagsyntaxscore.Fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
+import com.example.smartagsyntaxscore.R
 import com.example.smartagsyntaxscore.databinding.FragmentMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -17,13 +18,15 @@ class MainFragment : Fragment() {
     private lateinit var auth: FirebaseAuth
     override fun onCreateView( inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle? ): View? {
         // Initialize Firebase Auth
+
         auth = Firebase.auth
         _binding=FragmentMainBinding.inflate(inflater,container,false)
-        binding!!.login.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.main_to_login)
-            auth.signOut()
+        binding!!.leftButton.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.main_to_left)
+
         }
         return binding?.root
 
     }
 }
+

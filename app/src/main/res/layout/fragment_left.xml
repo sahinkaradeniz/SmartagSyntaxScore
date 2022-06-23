@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.LeftFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarLR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        app:title="@string/apname"
+        app:titleTextColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/leftscreen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/leftscreen"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c1"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="1 - RCA proximal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c2"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="2 - RCA mid"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c3"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="3- RCA distal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c4"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="5 - Left main"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c5"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="6 - LAD proximal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c6"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="7 - LAD mid"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c7"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:textColor="@color/chiptextcolor"
+                        android:text="8 - LAD apical"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c8"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="9 - First diagonal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c9"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:textColor="@color/chiptextcolor"
+                        android:text="9a - Add. first diagonal"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c10"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="10 Second diagonal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c10a"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="10a - Add. second diagonal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c11"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="11 - Proximal circumflex"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c12"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="12 - Intermediate/anterolateral"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c12a"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="12a - Obtuse marginal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c12b"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="12b - Obtuse marginal"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c13"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="13 - Distal circumflex"
+                        android:textSize="16sp"
+                        android:textColor="@color/chiptextcolor"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c14"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="14 - Left posterolateral"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c14a"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="14a - Left posterolateral"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c14b"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="14b - Left posterolateral"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c15"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="15 - Posterior descending"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/nextButton1"
+                        android:layout_width="283dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/previous"
+                        android:text="Next"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -7,16 +7,19 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.smartagsyntaxscore.MainFragment"
+        android:name="com.example.smartagsyntaxscore.Fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/main_to_login"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/main_to_left"
+            app:destination="@id/leftFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.smartagsyntaxscore.LoginFragment"
+        android:name="com.example.smartagsyntaxscore.Fragment.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -28,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.smartagsyntaxscore.RegisterFragment"
+        android:name="com.example.smartagsyntaxscore.Fragment.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -38,4 +41,27 @@
             android:id="@+id/register_to_login"
             app:destination="@id/loginFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/leftFragment"
+        android:name="com.example.smartagsyntaxscore.Fragment.LeftFragment"
+        android:label="fragment_left"
+        tools:layout="@layout/fragment_left" >
+        <action
+            android:id="@+id/action_leftFragment_to_screen1"
+            app:destination="@id/screen1" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen1"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1"
+        android:label="fragment_screen1"
+        tools:layout="@layout/fragment_screen1" >
+        <action
+            android:id="@+id/action_screen1_to_screen1_1"
+            app:destination="@id/screen1_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen1_1"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_1"
+        android:label="fragment_screen1_1"
+        tools:layout="@layout/fragment_screen1_1" />
 </navigation>
