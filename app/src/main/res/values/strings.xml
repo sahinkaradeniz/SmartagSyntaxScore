@@ -19,7 +19,12 @@
     <string name="question4">II. is Age of T.O. > 3 months?</string>
     <string name="question5">III. Blunt stump?</string>
     <string name="question6">IV. Bridging?</string>
+    <string name="question8">5. Severe Tortuosity</string>
+    <string name="question9">unkown</string>
+    <string name="question10">7. Heavy calcification</string>
+    <string name="question11">8. Thrombus</string>
     <string name="todo">TODO</string>
+    <string name="comment">Type your comment here...</string>
     <string name="leftscreen">Lezyon için hangi segment(ler)in hastalıklı olduğunu belirtiniz</string>
 
 </resources>
