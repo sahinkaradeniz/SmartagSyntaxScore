@@ -1,4 +1,4 @@
-package com.example.smartagsyntaxscore.Fragment
+package com.example.smartagsyntaxscore.Fragment.Left
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

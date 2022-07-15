@@ -24,16 +24,19 @@
     <string name="question7.2">Yes, all side breanches &gt;= 1.5mm</string>
     <string name="question7.3">Yes, all both breanches &lt;1.5mm and &gt;= 1.5 are involved</string>
     <string name="question8">2.Trifurcation</string>
-    <string name="question9">unkown</string>
+    <string name="question9">unknown</string>
     <string name="question10">7. Heavy calcification</string>
     <string name="question11">8. Thrombus</string>
     <string name="question12">5. Severe Tortuosity</string>
     <string name="question13">3. Bifurcation</string>
+    <string name="question14">6. Length&gt;20mm</string>
+    <string name="question15">7. Heavy calcification</string>
     <string name="todo">TODO</string>
-    <string name="comment">Type your comment here...</string>
+    <string name="comment">Type your comment here…</string>
     <string name="leftscreen">Lezyon için hangi segment(ler)in hastalıklı olduğunu belirtiniz</string>
     <string name="no">No</string>
     <string name="next">Next</string>
     <string name="yes">Yes</string>
-
+    <string name="Comment">Comment</string>
+    <string name="rightdominance">Right Dominance</string>
 </resources>

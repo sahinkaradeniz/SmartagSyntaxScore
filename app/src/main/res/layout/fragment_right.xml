@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fragment.Left.LeftFragment">
+    tools:context=".Fragment.Right.RightFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarLR"
@@ -19,7 +19,7 @@
         android:id="@+id/imageView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/leftscreen" />
+        app:srcCompat="@drawable/righth" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,7 +85,56 @@
                         android:textSize="16sp"
                         android:textStyle="bold"
                         app:chipBackgroundColor="@color/chip_background" />
-
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c4.1"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="4 Posterior descending"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c16"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="16 Posterolateral from RCA"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c16a"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="16a Posterolateral from RCA"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c16b"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="16b Posterolateral from RCA"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c16c"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="52dp"
+                        android:text="16c Posterolateral from RCA"
+                        android:textColor="@color/chiptextcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="@color/chip_background" />
                     <com.google.android.material.chip.Chip
                         android:id="@+id/c4"
                         style="@style/Widget.MaterialComponents.Chip.Choice"
@@ -95,7 +144,8 @@
                         android:textColor="@color/chiptextcolor"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        app:chipBackgroundColor="@color/chip_background" />
+                        app:chipBackgroundColor="@color/chip_background"
+                        />
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/c5"
@@ -262,17 +312,6 @@
                         android:textStyle="bold"
                         app:chipBackgroundColor="@color/chip_background" />
 
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/c15"
-                        style="@style/Widget.MaterialComponents.Chip.Choice"
-                        android:layout_width="wrap_content"
-                        android:layout_height="52dp"
-                        android:text="15 - Posterior descending"
-                        android:textColor="@color/chiptextcolor"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        app:chipBackgroundColor="@color/chip_background" />
-
                 </com.google.android.material.chip.ChipGroup>
 
                 <LinearLayout
@@ -282,7 +321,7 @@
                     android:orientation="horizontal">
 
                     <Button
-                        android:id="@+id/nextButton1"
+                        android:id="@+id/nextButton2"
                         android:layout_width="283dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"

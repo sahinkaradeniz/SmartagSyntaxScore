@@ -3,16 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_left.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_lesion_list.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1_1.xml" value="0.2359375" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1_2.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1_3.xml" value="0.2359375" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1_4.xml" value="0.2359375" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen1_5.xml" value="0.2359375" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_r__screen2.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_right.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1.xml" value="0.25" />
-        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_2.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_1.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_2.xml" value="0.264" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_3.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_4.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_4.xml" value="0.264" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen1_5.xml" value="0.264" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_10.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_11.xml" value="0.2359375" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_5.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_6.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_7.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_8.xml" value="0.25" />
+        <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/fragment_screen2_9.xml" value="0.25" />
         <entry key="..\:/Users/sahin/AndroidStudioProjects/SmartagSyntaxScore/app/src/main/res/layout/itempage1_5.xml" value="0.24895833333333334" />
       </map>
     </option>
