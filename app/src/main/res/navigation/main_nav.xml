@@ -59,8 +59,8 @@
             android:id="@+id/action_screen1_to_screen1_1"
             app:destination="@id/screen1_1" />
         <action
-            android:id="@+id/action_screen1_to_screen2_5"
-            app:destination="@id/screen2_5" />
+            android:id="@+id/action_screen1_to_screen2_52"
+            app:destination="@id/screen2_52" />
     </fragment>
     <fragment
         android:id="@+id/screen1_1"
@@ -99,11 +99,6 @@
             app:destination="@id/screen1_5" />
     </fragment>
     <fragment
-        android:id="@+id/screen1_5"
-        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_5"
-        android:label="Screen1_5"
-        tools:layout="@layout/fragment_screen2_5"/>
-    <fragment
         android:id="@+id/screen2_6"
         android:name="com.example.smartagsyntaxscore.Fragment.Screen2_6"
         android:label="fragment_screen2_6"
@@ -111,15 +106,6 @@
         <action
             android:id="@+id/action_screen2_6_to_screen2_7"
             app:destination="@id/screen2_7" />
-    </fragment>
-    <fragment
-        android:id="@+id/screen2_5"
-        android:name="com.example.smartagsyntaxscore.Fragment.Screen2_5"
-        android:label="fragment_screen2_7"
-        tools:layout="@layout/fragment_screen2_7" >
-        <action
-            android:id="@+id/action_screen2_5_to_screen2_6"
-            app:destination="@id/screen2_6" />
     </fragment>
     <fragment
         android:id="@+id/screen2_7"
@@ -134,14 +120,26 @@
         android:id="@+id/screen2_8"
         android:name="com.example.smartagsyntaxscore.Fragment.Screen2_8"
         android:label="fragment_screen2_8"
-        tools:layout="@layout/fragment_screen2_8" >
+        tools:layout="@layout/fragment_screen2_8" />
+    <fragment
+        android:id="@+id/screen1_5"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen1_5"
+        android:label="Screen1_5"
+        tools:layout="@layout/fragment_screen1_5">
         <action
-            android:id="@+id/action_screen2_8_to_lesionListFragment"
-            app:destination="@id/lesionListFragment" />
+            android:id="@+id/action_screen1_5_to_screen2_7"
+            app:destination="@id/screen2_7" />
+        <action
+            android:id="@+id/action_screen1_5_to_screen2_52"
+            app:destination="@id/screen2_52" />
     </fragment>
     <fragment
-        android:id="@+id/lesionListFragment"
-        android:name="com.example.smartagsyntaxscore.Fragment.LesionListFragment"
-        android:label="fragment_lesion_list"
-        tools:layout="@layout/fragment_lesion_list" />
+        android:id="@+id/screen2_52"
+        android:name="com.example.smartagsyntaxscore.Fragment.Screen2_5"
+        android:label="fragment_screen2_5"
+        tools:layout="@layout/fragment_screen2_5" >
+        <action
+            android:id="@+id/action_screen2_52_to_screen2_6"
+            app:destination="@id/screen2_6" />
+    </fragment>
 </navigation>

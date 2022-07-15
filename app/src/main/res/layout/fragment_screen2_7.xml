@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fragment.Screen2_5">
+    tools:context=".Fragment.Screen2_7">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarLR3"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/question8"
+        android:text="@string/question12"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -78,7 +78,7 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/nextButton2_6"
+            android:id="@+id/nextButton2_8"
             android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"

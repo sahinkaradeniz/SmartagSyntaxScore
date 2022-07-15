@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fragment.Screen1_3">
+    tools:context=".Fragment.Screen1_5">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarLR3"
@@ -15,15 +15,6 @@
         app:title="@string/leftdominance"
         app:titleTextColor="@color/white" />
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:layout_width="match_parent"
-        android:layout_height="160dp" />
-
-    <me.relex.circleindicator.CircleIndicator
-        android:id="@+id/indicator"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#E6CBCB" />
 
     <Switch
         android:id="@+id/switch2"
@@ -47,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/question5"
+        android:text="@string/question7"
         android:textColor="@color/black"
         android:textSize="14sp"
         android:textStyle="bold" />
@@ -65,29 +56,41 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <RadioButton
-                android:id="@+id/radioButton9"
+                android:id="@+id/radioButton7_0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:text="Yes" />
+                android:text="@string/no" />
 
             <RadioButton
-                android:id="@+id/radioButton10"
+                android:id="@+id/radioButton7_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:text="No" />
+                android:text="@string/question7.1" />
+            <RadioButton
+                android:id="@+id/radioButton7_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/question7.2" />
+            <RadioButton
+                android:id="@+id/radioButton7_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/question7.3" />
 
         </RadioGroup>
 
         <Button
-            android:id="@+id/nextButton1_4"
+            android:id="@+id/nextButton1_5_2"
             android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/previous"
-            android:text="Next"
+            android:text="@string/next"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
